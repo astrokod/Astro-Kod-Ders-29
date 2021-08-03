@@ -70,10 +70,10 @@ class Point:
 
     def from_polar(self, r, theta):
         if not isinstance(r, (float, int)):
-            raise ValueError("r must be a numierc")
+            raise ValueError("r must be a numeric")
 
         if not isinstance(theta, (float, int)):
-            raise ValueError("theta must be a numierc")
+            raise ValueError("theta must be a numeric")
 
         return Point(r * math.cos(math.radians(theta)), r * math.sin(math.radians(theta)))
 

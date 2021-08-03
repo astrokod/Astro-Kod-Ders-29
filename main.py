@@ -1,4 +1,4 @@
-from v2d import Point, Vector
+from v2d.core import Point, Vector
 
 # Nokta:
 p1 = Point(1, 1)
